@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Write from './First';
 
+import "./index.css";
 
 function Message(){
   return(
     <>
-    <h1>Hi</h1>
+    <h1 style={{color:"green",fontSize:"10rem"}}>Hi</h1>
     <Write/>
     <Message1/>
     <Name/>    
@@ -17,7 +18,7 @@ function Message(){
 function Message1(){
   return(
 <>
-<h3>Hey there</h3>
+<h3 >Hey there</h3>
 </>
   )
 }
