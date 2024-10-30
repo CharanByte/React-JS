@@ -4,7 +4,11 @@ import Write from './First';
 import {Show , Pass} from './props/props.js'
 import "./index.css";
 import Parent from './props/prop_obj.js';
+import {Audi,Car} from './props/propsexp1.js';
+
+
 function Message(){
+
   return(
     <>
     <h1 style={{color:"green",fontSize:"10rem"}}>Hi</h1>
@@ -32,4 +36,5 @@ function Name(){
 }
 
 //ReactDOM.render(<Message/>,document.getElementById("root"));
-ReactDOM.render(<Parent/>,document.getElementById("root"));
+//ReactDOM.render(<Parent/>,document.getElementById("root"));
+ReactDOM.render(<Car/>,document.getElementById("root"));
