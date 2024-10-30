@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Write from './First';
-
+import {Show , Pass} from './props/props.js'
 import "./index.css";
-
+import Parent from './props/prop_obj.js';
 function Message(){
   return(
     <>
@@ -31,4 +31,5 @@ function Name(){
   )
 }
 
-ReactDOM.render(<Message/>,document.getElementById("root"));
+//ReactDOM.render(<Message/>,document.getElementById("root"));
+ReactDOM.render(<Parent/>,document.getElementById("root"));
