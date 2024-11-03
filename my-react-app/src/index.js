@@ -5,7 +5,7 @@ import {Show , Pass} from './props/props.js'
 import "./index.css";
 import Parent from './props/prop_obj.js';
 import {Audi,Car} from './props/propsexp1.js';
-
+import Showroom from './listing of data/list.js';
 
 function Message(){
 
@@ -37,4 +37,5 @@ function Name(){
 
 //ReactDOM.render(<Message/>,document.getElementById("root"));
 //ReactDOM.render(<Parent/>,document.getElementById("root"));
-ReactDOM.render(<Car/>,document.getElementById("root"));
+//ReactDOM.render(<Car/>,document.getElementById("root"));
+ReactDOM.render(<Showroom/>,document.getElementById("root"));
