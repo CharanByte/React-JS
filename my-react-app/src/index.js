@@ -9,6 +9,7 @@ import {Audi,Car} from './props/propsexp1.js';
 import Showroom from './listing of data/list.js';
 import Show1 from './usestate Hooks/practice.js';
 import { Event } from './event handling/practise.js';
+import { Forms } from './react forms/forms.js';
 function Message(){
 
   return(
@@ -47,6 +48,9 @@ function Name(){
 // const container=document.getElementById("root");
 // const root=createRoot(container);
 // root.render(<Show1/>);
+// const container=document.getElementById("root");
+// const root=createRoot(container);
+// root.render(<Event/>);
 const container=document.getElementById("root");
 const root=createRoot(container);
-root.render(<Event/>);
+root.render(<Forms/>)
