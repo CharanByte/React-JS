@@ -10,6 +10,8 @@ import Showroom from './listing of data/list.js';
 import Show1 from './usestate Hooks/practice.js';
 import { Event } from './event handling/practise.js';
 import { Forms } from './react forms/forms.js';
+import{App} from './react forms/react1.js'
+
 function Message(){
 
   return(
@@ -51,6 +53,9 @@ function Name(){
 // const container=document.getElementById("root");
 // const root=createRoot(container);
 // root.render(<Event/>);
+// const container=document.getElementById("root");
+// const root=createRoot(container);
+// root.render(<Forms/>)
 const container=document.getElementById("root");
 const root=createRoot(container);
-root.render(<Forms/>)
+root.render(<App/>)
