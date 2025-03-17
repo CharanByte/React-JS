@@ -7,12 +7,6 @@ function OnLogin() {
     setCustomer({ ...customer, [e.target.name]: e.target.value });
   };
 
-  const handelOnSubmit = (e: any) => {
-    console.log("onsubmit");
-    e.preventDefault();
-    console.log(customer);
-  };
-
   const handelSubmit = async (e: any) => {
     e.preventDefault();
 
@@ -39,11 +33,16 @@ function OnLogin() {
     } else {
       setError((error) => ({ ...error, emailError: "" }));
     }
+    if (!error) {
+      console.log("ghjk");
+
+      console.log(customer);
+    }
   };
 
   return (
     <>
-      <form onSubmit={handelOnSubmit}>
+      <form onSubmit={handelSubmit}>
         <div className="col">
           <input
             type="text"
